@@ -7,11 +7,12 @@ console.log("week", moment().add(1,"week").format("YYYY-MM-DD"));
 console.log("month", moment().add(1,"month").format("YYYY-MM-DD"));
 
 const email={
-    host: "sandbox.smtp.mailtrap.io",
-    port: 2525,
-    auth: {
-      user: "af81acfda0f99c",
-      pass: ""
+    "host": "",
+    "port": "",
+    "secure":false,
+    "auth": {
+        "user":"",
+        "pass":""
     }
 };
 
